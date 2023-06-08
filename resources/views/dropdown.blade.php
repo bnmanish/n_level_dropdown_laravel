@@ -34,6 +34,7 @@
     <div class="mb-3 mt-3">
       <select class="form-control" name="category">
         <option value="0">--select--</option>
+        <!-- dropdownTree() function defined in helpers.php in app folder-->
         @php dropdownTree(); @endphp
       </select>
     </div>
